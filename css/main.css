@@ -59,6 +59,10 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
+
   header {
     background-color: #010B66;
   }
@@ -73,6 +77,7 @@ footer {
 
   #column-3 {
     background-color: #018BC9;
+    width: 100%;
   }
 
   footer {
@@ -84,6 +89,10 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.3%;
+  }
+  
   header {
     background-color: #C90081;
   }
@@ -97,7 +106,8 @@ footer {
   }
 
   #column-3 {
-    background-color: #8002BA;
+    background-color: rgb(228, 172, 254);
+    width: 33.3%;
   }
 
   footer {
